@@ -7,21 +7,6 @@ nav{
     justify-content: space-between;
    
 }
-/* Shared style */
-.text-primary{
-color:#FD6E0A;
-}
-
-.btn-primary{
-    background-color:#FD6E0A;
-    color: #FFFFFF ;
-    font-weight: bold ;
-    padding: 18px 32px ;
-    border-radius: 5px;
-    border :none
-
-}
-
 .nav-title{
     font-weight:800;
     font-size: 45px;
@@ -39,14 +24,42 @@ nav li a{
 .dark-2{
     color: #474747;
 }
-
 .white-color{
     color:#FFFFFF ;
 }
+
 nav ul{
     display: flex;
     align-items: center;
     
+}
+/* Shared style */
+.text-primary{
+color:#FD6E0A;
+}
+
+.btn-primary{
+    background-color:#FD6E0A;
+    color: #FFFFFF ;
+    font-weight: bold ;
+    padding: 18px 32px ;
+    border-radius: 5px;
+    border :none
+
+}
+
+.section-title{
+  font-size: 35px;  
+  font-weight: bold;
+  color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #181818;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
 }
 
 /* header */
@@ -77,4 +90,16 @@ nav ul{
 
 .banner-content{
     max-width: 580px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
 }
